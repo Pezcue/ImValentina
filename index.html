@@ -4,64 +4,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="styles" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Valentina | UI/UX Designer</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+<!-- icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 
     <Header>
-        <nav>
-            <h2>Valentina Silva | Graphic & UI/UX Designer</h2>
-            <div class="side">
-                <ul>
-                    <li>Work</li>
-                    <li>Resume</li>
-                    <li>Contact</li>
-                </ul>
+        <figure>
+            <img src="/images/Header/Group 1.png" alt="">
+        </figure>
+        <div class="Hero">
+            <nav class="top"><h4>Valentina Silva   |   Graphic & UI/UX designer</h4></nav>
+            <div class="center">
+
+                    <h1>Nice to meet you</h1>
+                    <h2>I'm Valentina</h2>
+                        <p>and I’m searching for my next opportunity to create meaningful impact through stunning visual designs.</p>
+          
+                    <ul>
+                        <li><a href="#">
+                            <img src="images/Header/Buttons/Triangle.png" 
+                            onmouseover="this.src='/images/Header/Buttons/Recurso1.png'" 
+                            onmouseout="this.src='images/Header/Buttons/Triangle.png'"
+                            alt="">
+                        <h5>PROJECTS</h5>
+                        </a></li>
+                        
+                        <li><a href="#">
+                            <img src="images/Header/Buttons/Cube.png" 
+                            onmouseover="this.src='/images/Header/Buttons/Recurso2.png'" 
+                            onmouseout="this.src='images/Header/Buttons/Cube.png'"
+                            alt="">
+                        <h5>RESUME</h5>
+                        </a></li>
+                        
+                        <li><a href="#">
+                        <img src="images/Header/Buttons/Circle.png" 
+                        onmouseover="this.src='/images/Header/Buttons/Recurso3.png'" 
+                        onmouseout="this.src='images/Header/Buttons/Circle.png'"
+                        alt="">
+                        <h5>CONTACT</h5>
+                        </a></li>
+                        
+                    </ul>
+
             </div>
-        </nav>
+
+        </div>
+        
+        <div class="foot">
+
+            <ul>
+                <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-behance"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+
+        </div>
+
+        
     </Header>
 
     <!-- Work gallery -->
-    <section>
-        <div class="first">
-            <img src="" alt="">
-            <div class="content"></div>
-            <img src="" alt="">
-        </div>
-        <div class="first">
-            <img src="" alt="">
-            <div class="content"></div>
-            <img src="" alt="">
-        </div>
-        <div class="first">
-            <img src="" alt="">
-            <div class="content"></div>
-            <img src="" alt="">
-        </div>
-        <div class="first">
-            <img src="" alt="">
-            <div class="content"></div>
-            <img src="" alt="">
-        </div>
-        <div class="first">
-            <img src="" alt="">
-            <div class="content"></div>
-            <img src="" alt="">
-        </div>
-    </section>
+    <section class="algo">
+        <div class="container">
+        <div class="item item-1">
+          <div class="chi pic1"></div>
+          <div class="chi description tex">
+            <p>3M, Cisco, Syngenta, Oracle have been my clients in the past. <br> <a href="">Check out what I made for them</a></p>
+            <h2>Graphic commercial pieces</h2>
+            
+          </div>
+          <div class="chi pic"></div>
+          </div>
+          
+            <div class="item item-2">
+          <div class="chi bic1"></div>
+          <div class="chi description bex">
+            <p>Bancrecer is a Venezuela based bank that was urgently in need of a re-design.
+             <a href="">Check out my solution for them</a></p>
+             <h2>Case Study: <br><span>Bancrecer</span></h2>
+          </div>
+          <div class="chi bic"></div>
+            </div>
+          
+            <div class="item item-3">
+          <div class="chi cic1"></div>
+          <div class="chi description cex">
+            <p>HT Technological Solutions is a cloud hosting company in need of website with structure. <a href="">Check out how we resolved this issue.</a></p>
+            <h2>Case Study: <br> <span>HT Solutions</span></h2>
+          </div>
+          <div class="chi cic"></div>
+            </div>
+          
+          <div class="item item-1">
+          <div class="chi pic1"></div>
+          <div class="chi description tex">
+    
+            <p>Unify is a networking platform that connects professionals to each other and their goals. <a href="">Check it out</a></p>
+            <h2>Case Study: <br> <span>Unify App</span></h2>
+          </div>
+          <div class="chi pic"></div>
+          </div>
+          
+          <div class="item item-1">
+          <div class="chi description dex">
+            <h2>And that’s only a tiny bit of what I can do ;)</h2>
+            <p>These are only selected projects I’ve done. To see more check out my links. <a href="">Check it out</a></p>
+          </div>
+          <div class="chi dic"></div>
+          </div>
+          
+      </div>
+      </section>
 
     <footer>
+        <div class="line"> 
+            <hr>
+        </div>
         <div class="left">
             <h2>Let's create</h2>
-            <img src="" alt="">
+            <img src="images/Footer/Together.png" alt="">
         </div>
         
         <div class="right">
+            
             <a href="">> Write me an email</a>
             <a href="">> Write me a DM</a>
             <a href="">> Schedule a meeting</a>
             <a href="">> Let's have a chat</a>
+            <!-- <img src="images/Footer/Arte1.png" alt=""> -->
         </div>
         <div class="last">
             <h6>© 2023 Valentina Silva</h6>
