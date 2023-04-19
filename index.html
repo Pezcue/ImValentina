@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/Icon.png">
     <title>Valentina | UI/UX Designer</title>
 
     <!-- fonts -->
@@ -18,10 +19,12 @@
 </head>
 <body>
 
-    <Header id="cabeza_me">
+<!-- content hero -->
+<Header id="cabeza_me">
         <figure>
             <a href="#cabeza_me"><img class="floating" src="/images/Header/Group 1.png" alt=""></a>
         </figure>
+        
         <div class="Hero">
             <nav class="top"><h4>Valentina Silva   |   Graphic & UI/UX designer</h4></nav>
             <div class="center">
@@ -32,6 +35,8 @@
           
                     <ul>
                         <li><a href="#projects_section">
+                          
+
                             <img src="images/Header/Buttons/Triangle.png" 
                             onmouseover="this.src='/images/Header/Buttons/Recurso1.png'" 
                             onmouseout="this.src='images/Header/Buttons/Triangle.png'"
@@ -63,26 +68,39 @@
         
         <div class="foot">
 
+          <div class="solo">This is a hidden message!</div>
+
+          <div id="wrapper">
+            <div id="wrapper-inner">
+          <div id="scroll-down">
+            <span class="arrow-down">
+            <!-- css generated icon -->
+            </span>
+           
+          </div>
+            </div>
+            </div>
+
 
             <ul>
-                <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-behance"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a target=”_blank” href="https://wa.me/6317100958/?text=Hey%20Valentina,%20I%20would%20like%20to%20tell%20you%20about%20my%20project"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a target=”_blank” href="https://www.behance.net/V4lentin4"><i class="fa-brands fa-behance"></i></a></li>
+                <li><a target=”_blank” href="https://t.me/pezcue"><i class="fa-brands fa-telegram"></i></a></li>
+                <li><a target=”_blank” href="https://www.linkedin.com/in/paolavsilva/"><i class="fa-brands fa-linkedin-in"></i></a></li>
             </ul>
 
         </div>
 
         
-    </Header>
+</Header>
 
-    <!-- Work gallery -->
-    <section class="algo" id="projects_section">
+  <!-- Work gallery -->
+<section class="algo" id="projects_section">
         <div class="container">
         <div class="item item-1">
           <div class="chi pic1"></div>
           <div class="chi description tex">
-            <p>3M, Cisco, Syngenta, Oracle have been my clients in the past. <br> <a href="">Check out what I made for them</a></p>
+            <p>3M, Cisco, Syngenta, Oracle have been my clients in the past. <br> <a class="under" target=”_blank” href="">Check out what I made for them</a></p>
             <h2>Graphic commercial pieces</h2>
             
           </div>
@@ -93,7 +111,7 @@
           <div class="chi bic1"></div>
           <div class="chi description bex">
             <p>Bancrecer is a Venezuela based bank that was urgently in need of a re-design.
-             <a href="">Check out my solution for them</a></p>
+             <a class="under" target=”_blank” href="https://www.behance.net/gallery/164715831/Bancrecer-Bank">Check out my solution for them</a></p>
              <h2>Case Study: <br><span>Bancrecer</span></h2>
           </div>
           <div class="chi bic"></div>
@@ -102,7 +120,7 @@
             <div class="item item-3">
           <div class="chi cic1"></div>
           <div class="chi description cex">
-            <p>HT Technological Solutions is a cloud hosting company in need of website with structure. <a href="">Check out how we resolved this issue.</a></p>
+            <p>HT Technological Solutions is a cloud hosting company in need of website with structure. <a class="under" target=”_blank” href="https://www.behance.net/gallery/164671853/HT-Technological-Solutions">Check out how we resolved this issue.</a></p>
             <h2>Case Study: <br> <span>HT Solutions</span></h2>
           </div>
           <div class="chi cic"></div>
@@ -112,7 +130,7 @@
           <div class="chi pic1"></div>
           <div class="chi description tex">
     
-            <p>Unify is a networking platform that connects professionals to each other and their goals. <a href="">Check it out</a></p>
+            <p>Unify is a networking platform that connects professionals to each other and their goals. <a class="under" target=”_blank” href="">Check it out</a></p>
             <h2>Case Study: <br> <span>Unify App</span></h2>
           </div>
           <div class="chi pic"></div>
@@ -121,35 +139,43 @@
           <div class="item item-1">
           <div class="chi description dex">
             <h2>And that’s only a tiny bit of what I can do ;)</h2>
-            <p>These are only selected projects I’ve done. To see more check out my links. <a href="">Check it out</a></p>
+            <p>These are only some selected projects I’ve done. See more here </p>
+            <ul><li><a class="under" target=”_blank” href="https://www.behance.net/V4lentin4"><i class="fa-brands fa-behance"></i></a></ul>
           </div>
           <div class="chi dic"></div>
           </div>
           
       </div>
-      </section>
+</section>
 
-    <footer id="contact_me">
-        <div class="line"> 
-            <hr>
-        </div>
-        <div class="left">
-            <h2>Let's create</h2>
-            <a href="#"><img src="images/Footer/Together.png" alt=""></a>
-        </div>
+  <!-- Contact footer -->
+<footer id="contact_me">
+  <div class="line"> 
+    <hr>
+  </div>
+
+  <div class="left">
+    <h2>Let's create</h2>
+    <a href="#"><img class="lightflo" src="images/Footer/Together.png" alt=""></a>
+  </div>
         
-        <div class="right">
+  <div class="right">
             
-            <a href="">> Write me an email</a>
-            <a href="">> Write me a DM</a>
-            <a href="">> Schedule a meeting</a>
-            <a href="">> Let's have a chat</a>
+            <a target=”_blank” href="mailto:paolasilvaama3@gmail.com?subject=New%20Project&body=Hi%20Valentina%20👋">> Write me an email</a>
+            <a target=”_blank” href="https://twitter.com/messages/compose?recipient_id=1403401485967409156&text=Hello%20Valentina%20👋">> Write me a DM</a>
+            <a target=”_blank” href="https://calendly.com/valentinasilva3">> Schedule a meeting</a>
+            <a target=”_blank” href="">> Let's have a chat</a>
             <!-- <img src="images/Footer/Arte1.png" alt=""> -->
-        </div>
-        <div class="last">
-            <h6>© 2023 Valentina Silva</h6>
-            <h6>Website developed and designed by Valentina with <i class="fa-solid fa-heart" style="color: #ff1a47;"></i> </h6>
-        </div>
-    </footer>
+  </div>
+
+  <div class="last">
+    <h6>© 2023 Valentina Silva</h6>
+    <h6>Website developed and designed by Valentina with <i class="fa-solid fa-heart" style="color: #ff1a47;"></i> </h6>
+  </div>
+</footer>
+
+<!-- Js file -->
+
+<script src="myscripts.js"></script>
 </body>
 </html>
