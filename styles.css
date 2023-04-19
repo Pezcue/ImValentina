@@ -51,8 +51,10 @@ header:nth-child(2){
     grid-gap: 5%;
     align-items: center;
 }
- 
 
+p {
+  letter-spacing: 1px;
+}
 
  /* content hero */
 
@@ -240,14 +242,14 @@ figure img {
   }
 
   .chi:hover {
-    background-color: #ff90ed87;
+    background-color: #ffccf7;
     color: white;
     font-size: 1.1rem;
   }
 
   .chi a {
     text-decoration: none;
-    color: #FF90ED;
+    color: #ff72e7;
     font-weight: 700;
   }
 
@@ -352,6 +354,12 @@ figure img {
 
   .under {
     text-decoration: underline;
+    transition: 300ms all ease-in-out;
+  }
+
+  .under:hover {
+    color: rgb(203, 96, 253);
+    letter-spacing: 1px;
   }
 
   .under::after {
