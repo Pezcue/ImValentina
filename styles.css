@@ -11,7 +11,12 @@ html {
   scroll-behavior: smooth;
   color: #707070;
   overflow-x: hidden;
-  
+}
+
+body {
+  max-width: 1960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* front styling */
@@ -60,6 +65,7 @@ p {
 
 figure img {
     width: 55%;
+    max-width: 900px;
     position: absolute;
     z-index: -1;
 }
