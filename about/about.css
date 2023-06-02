@@ -303,7 +303,7 @@
 .htht {
   width: 100px;
   height: 100px;
-  background-image: url('/about/HTML.png');
+  background-image: url('HTML.png');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -314,7 +314,7 @@
 .cscs {
   width: 100px;
   height: 100px;
-  background-image: url('/about/CSS.png');
+  background-image: url('CSS.png');
   background-size: cover;
   background-position: center;
   position: relative;
