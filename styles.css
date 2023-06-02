@@ -65,7 +65,7 @@ p {
 
 figure img {
     width: 55%;
-    max-width: 900px;
+    max-width: 800px;
     position: absolute;
     z-index: -1;
 }
