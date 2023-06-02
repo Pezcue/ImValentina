@@ -10,7 +10,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     background-color: white;
-    background-image: url(/about/FuzzyLetters.png);
+    background-image: url(../aboutimages/FuzzyLetters.png);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -314,7 +314,7 @@
 .cscs {
   width: 100px;
   height: 100px;
-  background-image: url('CSS.png');
+  background-image: url('../aboutimages/CSS.png');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -325,7 +325,7 @@
  .jsjs {
   width: 100px;
   height: 100px;
-  background-image: url('/about/JavaScript.png');
+  /* background-image: url('/about/JavaScript.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -336,7 +336,7 @@
  .cmcm {
   width: 100px;
   height: 100px;
-  background-image: url('/about/CommandLine.png');
+  /* background-image: url('/about/CommandLine.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -347,7 +347,7 @@
  .pypy {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Python.png');
+  /* background-image: url('/about/Python.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -360,7 +360,7 @@
  .enen {
   width: 100px;
   height: 100px;
-  background-image: url('/about/English.png');
+  /* background-image: url('/about/English.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -371,7 +371,7 @@
  .eses {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Spanish.png');
+  /* background-image: url('/about/Spanish.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -382,7 +382,7 @@
  .frfr {
   width: 100px;
   height: 100px;
-  background-image: url('/about/French.png');
+  /* background-image: url('/about/French.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -393,7 +393,7 @@
  .popo {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Portuguese.png');
+  /* background-image: url('/about/Portuguese.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -406,7 +406,7 @@
 .prpr {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Proto.io.png');
+  /* background-image: url('/about/Proto.io.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -415,7 +415,7 @@
  .zeze {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Zeplin.png');
+  /* background-image: url('/about/Zeplin.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -424,7 +424,7 @@
  .whwh {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Whimsical.png');
+  /* background-image: url('/about/Whimsical.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -433,7 +433,7 @@
  .mimi {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Miro.png');
+  /* background-image: url('/about/Miro.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -442,7 +442,7 @@
  .adad {
   width: 100px;
   height: 100px;
-  background-image: url('/about/elfeo.png');
+  /* background-image: url('/about/elfeo.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -451,7 +451,7 @@
  .sksk {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Sketch.png');
+  /* background-image: url('/about/Sketch.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -460,7 +460,7 @@
  .fifi {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Figma.png');
+  /* background-image: url('/about/Figma.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -469,7 +469,7 @@
  .absabs {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Abstract.png');
+  /* background-image: url('/about/Abstract.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -478,7 +478,7 @@
  .davdav {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Davinci.png');
+  /* background-image: url('/about/Davinci.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -487,7 +487,7 @@
  .inin {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Invision.png');
+  /* background-image: url('/about/Invision.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -497,7 +497,7 @@
  .sqsq {
   width: 100px;
   height: 100px;
-  background-image: url('/about/SQL.png');
+  /* background-image: url('/about/SQL.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -506,7 +506,7 @@
  .tata {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Tableau.png');
+  /* background-image: url('/about/Tableau.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -515,7 +515,7 @@
  .powpow {
   width: 100px;
   height: 100px;
-  background-image: url('/about/PowerBI.png');
+  /* background-image: url('/about/PowerBI.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -524,7 +524,7 @@
  .stustu {
   width: 100px;
   height: 100px;
-  background-image: url('/about/GoogleDataStudio.png');
+  /* background-image: url('/about/GoogleDataStudio.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -533,7 +533,7 @@
  .momo {
   width: 100%;
   height: 100px;
-  background-image: url('/about/MongoDB.png');
+  /* background-image: url('/about/MongoDB.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -546,7 +546,7 @@
  .npnp {
   width: 100px;
   height: 100px;
-  background-image: url('/about/npm.png');
+  /* background-image: url('/about/npm.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -555,7 +555,7 @@
  .gitgit {
   width: 100px;
   height: 100px;
-  background-image: url('/about/git.png');
+  /* background-image: url('/about/git.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -564,7 +564,7 @@
  .gigi {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Github.png');
+  /* background-image: url('/about/Github.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -573,7 +573,7 @@
  .rere {
   width: 100px;
   height: 100px;
-  background-image: url('/about/React.png');
+  /* background-image: url('/about/React.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -582,7 +582,7 @@
  .sasa {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Sass.png');
+  /* background-image: url('/about/Sass.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -593,7 +593,7 @@
  .dradra {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Drawing.png');
+  /* background-image: url('/about/Drawing.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -604,7 +604,7 @@
  .gaga {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Games.png');
+  /* background-image: url('/about/Games.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -615,7 +615,7 @@
  .rearea {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Reading.png');
+  /* background-image: url('/about/Reading.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -626,7 +626,7 @@
  .cheche {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Chess.png');
+  /* background-image: url('/about/Chess.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -637,7 +637,7 @@
  .conscons {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Conspiracies.png');
+  /* background-image: url('/about/Conspiracies.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -648,7 +648,7 @@
  .hihi {
   width: 150px;
   height: 100px;
-  background-image: url('/about/Hiking.png');
+  /* background-image: url('/about/Hiking.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -659,7 +659,7 @@
  .scasca {
   width: 100px;
   height: 100px;
-  background-image: url('/about/ScaryMovies.png');
+  /* background-image: url('/about/ScaryMovies.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -670,7 +670,7 @@
  .ediedi {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Editing.png');
+  /* background-image: url('/about/Editing.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -681,7 +681,7 @@
  .runrun {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Running.png');
+  /* background-image: url('/about/Running.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -692,7 +692,7 @@
  .coocoo {
   width: 100px;
   height: 100px;
-  background-image: url('/about/Cooking.png');
+  /* background-image: url('/about/Cooking.png'); */
   background-size: cover;
   background-position: center;
   position: relative;
