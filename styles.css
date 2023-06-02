@@ -239,6 +239,7 @@ figure img {
     flex-wrap: wrap;
     justify-content: center;
     transition: 100ms all ease-in-out;
+    background-color: white;
   }
 
   .chi:hover {
@@ -472,7 +473,6 @@ footer {
 
 .last {
     width: 100%;
-    
     /* border: 1px solid white; */
     display: flex;
     flex-wrap: wrap;
