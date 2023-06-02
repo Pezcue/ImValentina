@@ -272,7 +272,7 @@ figure img {
   .pic1 {
     grid-column-start: 1;
     grid-column-end: 4;
-    background-image: url(/images/Work/Illustration_Collection1.png);
+    background-image: url(images/Work/Illustration_Collection1.png);
     background-size: cover;
     background-position: center;
   }
@@ -282,7 +282,7 @@ figure img {
   }
 
   .pic {
-    background-image: url(/images/Work/Illustration_Collection.png);
+    background-image: url(images/Work/Illustration_Collection.png);
     background-size: cover;
     background-position: left;
   }
@@ -301,7 +301,7 @@ figure img {
   }
 
   .bic1 {
-    background-image: url(/images/Work/Bank1.png);
+    background-image: url(images/Work/Bank1.png);
     background-size: cover;
     background-position: left;
   }
@@ -310,7 +310,7 @@ figure img {
   
   .cic1 {
     grid-column: 1/ 3;
-    background-image: url(/images/Work/HT1.png);
+    background-image: url(images/Work/HT1.png);
     background-size: cover;
     background-position: right;
   }
@@ -320,7 +320,7 @@ figure img {
   }
 
   .cic {
-    background-image: url(/images/Work/HT2.png);
+    background-image: url(images/Work/HT2.png);
     background-size: cover;
     background-position: left;
   }
@@ -346,7 +346,7 @@ figure img {
   
   .dic {
     grid-column: 3 / 7;
-    background-image: url(/images/Work/Image_1.png);
+    background-image: url(images/Work/Image_1.png);
     background-size: cover;
     background-position: left;
   }
